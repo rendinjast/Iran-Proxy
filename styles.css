@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Dirooz";
+  src: url("../fonts/Dirooz.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Dirooz.woff2") format("woff2"),
+    url("../fonts/Dirooz.woff") format("woff"),
+    url("../fonts/Dirooz.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: none;
+  text-decoration: none;
+  font-family: "Dirooz", sans-serif;
+}
+
+body {
+  width: 300px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  margin: 4px;
+}
+.header #website {
+  cursor: pointer;
+  font-size: 16px;
+}
+#isConnected {
+  width: 90%;
+  box-shadow: rgba(139, 195, 74, 0.411) 0px 3px 6px 0px;
+  background-color: #8bc34a;
+  position: relative;
+  z-index: 2;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 16px auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#isConnected > span {
+  margin: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#isConnected .alert-msg {
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  text-align: center;
+}
+#isConnected div {
+  font-size: 11px;
+  align-self: flex-end;
+  background-color: red;
+  box-shadow: rgba(255, 0, 0, 0.219) 0px 3px 6px 0px;
+  border-radius: 25px;
+  padding: 2px 8px;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-top: 7px;
+}
+
+table {
+  margin: 16px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+tbody tr {
+  cursor: pointer;
+}
+td,
+th {
+  padding: 0.75rem;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid #dee2e6;
+}
